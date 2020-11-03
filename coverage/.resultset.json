@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/kalindifonda/Desktop/makers/6_week/ollie_bookmarks/app.rb": {
+      "/Users/ok/Projects/pairing-challenges/bookmark-manager/02112020/bookmarks-challenge/app.rb": {
         "lines": [
           null,
           null,
@@ -30,7 +30,7 @@
           null
         ]
       },
-      "/Users/kalindifonda/Desktop/makers/6_week/ollie_bookmarks/lib/bookmarks.rb": {
+      "/Users/ok/Projects/pairing-challenges/bookmark-manager/02112020/bookmarks-challenge/lib/bookmarks.rb": {
         "lines": [
           null,
           1,
@@ -38,25 +38,28 @@
           null,
           1,
           null,
-          1,
-          17,
-          17,
           null,
           null,
           1,
+          13,
+          13,
+          13,
           null,
-          17,
-          17,
+          null,
+          1,
+          null,
+          13,
+          13,
           null,
           0,
           null,
-          17,
+          13,
           null,
           0,
           null,
           0,
           null,
-          17,
+          13,
           null,
           null,
           null,
@@ -68,7 +71,7 @@
           0,
           null,
           5,
-          26,
+          21,
           null,
           0,
           null,
@@ -81,7 +84,7 @@
           null
         ]
       },
-      "/Users/kalindifonda/Desktop/makers/6_week/ollie_bookmarks/spec/features/bookmark_page_spec.rb": {
+      "/Users/ok/Projects/pairing-challenges/bookmark-manager/02112020/bookmarks-challenge/spec/features/bookmark_page_spec.rb": {
         "lines": [
           null,
           1,
@@ -103,11 +106,12 @@
           1,
           1,
           1,
+          1,
           null,
           null
         ]
       },
-      "/Users/kalindifonda/Desktop/makers/6_week/ollie_bookmarks/spec/features/index_page_spec.rb": {
+      "/Users/ok/Projects/pairing-challenges/bookmark-manager/02112020/bookmarks-challenge/spec/features/index_page_spec.rb": {
         "lines": [
           null,
           null,
@@ -119,7 +123,7 @@
           null
         ]
       },
-      "/Users/kalindifonda/Desktop/makers/6_week/ollie_bookmarks/spec/features/test_hello_world_page_spec.rb": {
+      "/Users/ok/Projects/pairing-challenges/bookmark-manager/02112020/bookmarks-challenge/spec/features/test_hello_world_page_spec.rb": {
         "lines": [
           null,
           null,
@@ -131,7 +135,7 @@
           null
         ]
       },
-      "/Users/kalindifonda/Desktop/makers/6_week/ollie_bookmarks/spec/unit/bookmarks_spec.rb": {
+      "/Users/ok/Projects/pairing-challenges/bookmark-manager/02112020/bookmarks-challenge/spec/unit/bookmarks_spec.rb": {
         "lines": [
           null,
           1,
@@ -148,6 +152,6 @@
         ]
       }
     },
-    "timestamp": 1604418309
+    "timestamp": 1604420424
   }
 }

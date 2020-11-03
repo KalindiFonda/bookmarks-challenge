@@ -12,9 +12,10 @@ def truncate_test_bookmarks_table
 end
 
 def populate_test_bookmarks_table
-  bookmarks_list = ['http://www.makersacademy.com', 'http://askjeeves.com',
-    'http://twitter.com', 'http://www.google.com']
+  bookmarks_list = [ { title: 'Makers', url: 'http://www.makersacademy.com' },
+                     { title: 'Ask Jeeves', url: 'http://askjeeves.com' },
+                     { title: 'Google', url: 'http://www.google.com' } ]
   bookmarks_list.each do |bm|
-    Bookmarks.new(bm)
+    Bookmarks.new(bm[:title], bm[:url])
   end
 end

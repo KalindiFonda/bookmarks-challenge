@@ -6,7 +6,7 @@ RSpec.describe Bookmarks do
     it 'returns a list of bookmarks' do
       populate_test_bookmarks_table
       bookmarks = Bookmarks.all
-      expect(bookmarks).to include('http://www.google.com')
+      expect(bookmarks).to include('Google')
     end
   end
 end
