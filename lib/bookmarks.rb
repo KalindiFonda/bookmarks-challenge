@@ -36,14 +36,12 @@ class Bookmarks
       else
         con = PG.connect(dbname: 'bookmark_manager')
       end
-      result = con.exec "SELECT title, url FROM bookmarks"
-      result.map { |bookmark| bookmark['title'] }
-
+      con.exec "SELECT title, url FROM bookmarks"
     rescue PG::Error => e
       # We want R rated errors!
         puts e.message
     ensure
-        result.clear if result
+        #result.clear if result
         con.close if con
     end
   end
