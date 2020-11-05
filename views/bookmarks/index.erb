@@ -1,13 +1,24 @@
 <h1>Bookmarks</h1>
 <form action="/bookmarks" method="post">
-  <input type="text" name="bookmark_title" placeholder="bookmark title" required>
-  <input type="text" name="bookmark_url" placeholder="bookmark url" required>
+  <input type="text" name="title" placeholder="bookmark title" required>
+  <input type="text" name="url" placeholder="bookmark url" required>
   <input type="submit" value="Add bookmark">
 </form>
+<h4 style="color: red;" ><%= flash[:notice] %></h4>
 
 
 <ul>
   <% @bookmarks.each do |bookmark| %>
-    <li><a href="<%= bookmark['title']%>"><%= bookmark['title'] %></a></li>
+    <li class="bookmark">
+      <a href="<%= bookmark.url%>"><%= bookmark.title %></a>
+      <%= bookmark.id %>
+      <form action="/bookmarks/<%= bookmark.id %>" method="post">
+        <input type='hidden' name='_method' value='DELETE'/>
+        <input type="submit" value="Delete" />
+      </form>
+      <form action="/bookmarks/<%= bookmark.id %>/edit" method="get" >
+        <input type="submit" value="Edit" />
+      </form>
+    </li>
   <% end %>
 </ul>
